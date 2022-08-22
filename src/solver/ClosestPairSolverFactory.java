@@ -2,7 +2,8 @@ package solver;
 
 public final class ClosestPairSolverFactory {
 
-    private ClosestPairSolverFactory() {}
+    private ClosestPairSolverFactory() {
+    }
 
     public static ClosestPairSolver createClosestPairSolver(SolverStrategy strategy) {
         switch (strategy) {
